@@ -1,0 +1,121 @@
+html code!!!
+<!DOCTYPE html>
+<html class="background">
+    <head>
+        <link href="loginstyle.css" rel="stylesheet"/>
+        <title>Login</title>
+    </head>
+    <body>
+        <article>
+            <p id="user">username
+            <!-- <input> id="username" type="text"  placeholder=' '</input> -->
+            </p>
+            <p class="password">password</p>
+            <p class="button">LOGIN</p>
+            <p class="final">Not registered?<a href="#">Create an account</a> </p>
+            <script src="script1.js">
+                let user= document.getelementbyid("user")
+                user.innerHTML="hi"
+            </script>
+        </article>
+    </body>
+</html>
+
+css code!!
+body{
+    /* border:5px solid #000; */
+    margin:  auto;
+    margin-top:200px;
+    width:400px;
+    padding:10px ;
+    /* margin:200px; */
+    background-color:#ffffff86;
+    border-radius:6px;
+    cursor:pointer;
+    /* position:absolute;
+    right:auto;
+    left:auto;
+    top:auto;
+    bottom:auto; */
+    /* background-image:color-burn */
+}
+
+#user{
+    background-color:#e2dfdf9d;
+    padding:18px;
+    text-align:left;
+    color:#1616166b;
+    font-size:16px;
+    margin:0 50px;
+    margin-top:50px;
+    /* display:block; */
+
+}
+.password{
+    background-color:#e2dfdf9d;
+    padding:18px;
+    text-align:left;
+    color:#1616166b;
+    font-size:16px;
+    margin:20px 50px;
+    /* margin-bottom:0px; */
+}
+.button{
+    text-align:center;
+    /* width:74%; */
+    background-color:#2fa34277;
+    border:none;
+    font-weight:bold;
+    letter-spacing:2px;
+    padding:18px;
+    color:#1616166b;
+    font-size:16px;
+    margin:20px 50px;
+    margin-bottom:0px;
+    /* margin-bottom:0px; */
+    
+}
+.button:hover{
+    color:#000;
+    background-color:#ffffff00;
+
+}
+a{
+    color:#2fa342d0;
+    text-decoration:none;
+}
+a:hover{
+    color:#000;
+}
+p{
+    text-align:center;
+    font-size:16px;
+    font-weight:bold;
+    color:#080808d0;
+
+}
+/* p:hover{
+    color:#0c0c0cd0;
+
+} */
+*{
+    font-family:sans-serif;
+    
+}
+.background{
+    background-color:#098a1fd0;
+    /* background-image:url(img/Awesome-Thar-Wallpaper-4k-1024x576.jpg); */
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100vh;
+    /* position:absolute; */
+    /* position:relative; */
+
+    width:100lvw;
+    /* width:200px; */
+    /* margin:0 auto; */
+    /* margin:200px; */
+    
+
+    /* background-image:linear-gradient(1); */
+}

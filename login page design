@@ -1,0 +1,123 @@
+html code!!
+<!DOCTYPE HTML>
+<html class="article">
+    <head>
+        <link href="login2style.css" rel="stylesheet"/>
+        <title>Login</title>
+    </head>
+    <!-- <article> -->
+    <body>
+        
+        <p class="style">1</p>
+        <p class="login"><see>login</see></p>
+        <p class="user">username</p>
+        <p class="pass">password</p>
+        <p class="button">go</p>
+        <p class="last">Forgot your password?</p>
+    
+    </body>
+    <!-- </article> -->
+</html>
+
+css code!!
+*{
+    font-family:sans-serif;
+    /* position:relative; */
+}
+/* see{
+    position:relative;
+} */
+body{
+    padding:50px ;
+    position:relative;
+    /* border:2px solid #000; */
+    width:200px;
+    margin:  0 auto;
+    margin-top:200px;
+    background-color:#fff;
+    border-radius:5px;
+}
+.article{
+    background-color:#cecdcd;
+}
+.style{
+    /* content=""; */
+    display:inline;
+    /* margin-right:15px;
+    margin-left:-49px; */
+    height:3px;
+    /* width:px; */
+    /* margin-bottom:30px;  */
+    color:#b60e4e;
+    padding:20px 0px;
+    /* border:2px solid #000; */
+    position:absolute;
+    top:34px;
+    left:0px;
+    background-color:#b60e4e;
+}
+
+    
+
+.login{
+    color:#b60e4e;
+
+    font-size:40px;
+    /* border:2px solid #000; */
+    margin-bottom:30px;
+    /* padding:px; */
+    /* position:relative; */
+
+    text-transform:uppercase;
+    font-weight:bold;
+    display:inline;
+    /* margin-left: */
+}
+.login::after{
+    content:"";
+    /* content:"" */
+    /* display:inline-block; */
+    text-align:center;
+
+    /* border:2px solid #000; */
+    border-radius: 100%;
+    width:80px;
+    height:80px;
+    position:absolute;
+    background-color:#b60e4e;
+    top:30px;
+    right:-40px;
+}
+.user{
+    color:#c2c0c0;
+
+    padding-bottom:5px;
+    border-bottom:1px solid #c2c0c0;
+}
+.pass{
+    color:#c2c0c0;
+    padding-bottom:5px;
+    border-bottom:1px solid #c2c0c0;
+}
+.button{
+    color:#d4d2d2;
+    text-transform:uppercase;
+    border:1px solid #d4d2d2;
+    text-align:center;
+    padding:9px 18px;
+    font-weight:bold;
+    margin:10px 20px;
+}
+.button:hover{
+    color:#fff;
+    background-color:#b60e4e;
+}
+.last{
+    color:#c2c0c0;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:0px;
+}
+.last:hover{
+    color:#000;
+}
